@@ -24,4 +24,7 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: create1
+      run:  ./gradlew assemble
+      
     - run: ls
