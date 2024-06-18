@@ -27,4 +27,4 @@ jobs:
     - name: create1
       run:  ./gradlew assemble
       
-    - run: ls ./app/build/outputs/apk/releases
+    - run: ls ./app/build/outputs/apk/debug
